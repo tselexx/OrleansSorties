@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+    <group>
+        <!--<item-->
+           <!--android:id="@+id/agenda"-->
+           <!--android:icon="@drawable/calendar"-->
+           <!--android:title="Evènements d\'un jour"/>-->
+
+        <item
+            android:title="------ THEMES ------"
+            android:enabled="false"
+            android:checkable="false" />
+        <group
+                android:checkableBehavior="single">
+            <item
+                    android:id="@+id/nav_tout"
+                    android:icon="@drawable/worldwide"
+                    android:title="Tous les thèmes (défaut)"/>
+            <item
+                    android:id="@+id/nav_balade"
+                    android:icon="@drawable/placeholder"
+                    android:title="Balade-découverte-visite"/>
+            <item
+                    android:id="@+id/nav_conference"
+                    android:icon="@drawable/group"
+                    android:title="Conférence-rencontre-débat"/>
+            <item
+                    android:id="@+id/nav_exposition"
+                    android:icon="@drawable/canvas"
+                    android:title="Exposition"/>
+            <item
+                    android:id="@+id/nav_fete"
+                    android:icon="@drawable/happiness"
+                    android:title="Fête-salon-marché"/>
+            <item
+                    android:id="@+id/nav_musique"
+                    android:icon="@drawable/music"
+                    android:title="Musique"/>
+            <item
+                    android:id="@+id/nav_projection"
+                    android:icon="@drawable/camera"
+                    android:title="Projection-cinéma"/>
+            <item
+                    android:id="@+id/nav_spectacle"
+                    android:icon="@drawable/theatre"
+                    android:title="Spectacle"/>
+            <item
+                    android:id="@+id/nav_sport"
+                    android:icon="@drawable/cup"
+                    android:title="Sport"/>
+            <item
+                    android:id="@+id/nav_stage"
+                    android:icon="@drawable/jigsaw"
+                    android:title="Stage-atelier-jeu"/>
+            <item
+                    android:id="@+id/nav_jeune"
+                    android:icon="@drawable/pacifier"
+                    android:title="Jeune public"/>
+        </group>
+    </group>
+
+</menu>

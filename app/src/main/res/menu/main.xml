@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item
+              android:title="-- Périodes de recherche --"
+              android:enabled="false"
+              android:checkable="false" />
+        <group>
+            <item android:id="@+id/zero_events"
+                  android:title="le jour même (défaut)"
+                  android:orderInCategory="1"
+                  app:showAsAction="never"/>
+            <item android:id="@+id/four_events"
+                  android:title="sur 4 jours"
+                  android:orderInCategory="2"
+                  app:showAsAction="never"/>
+            <item android:id="@+id/week_events"
+                  android:title="sur une semaine"
+                  android:orderInCategory="3"
+                  app:showAsAction="never"/>
+            <item android:id="@+id/ten_events"
+                  android:title="sur 10 jours"
+                  android:orderInCategory="4"
+                  app:showAsAction="never"/>
+        </group>
+    </group>
+</menu>
